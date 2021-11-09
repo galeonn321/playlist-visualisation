@@ -14,6 +14,7 @@ body {
   font-family: 'Red Hat Mono', sans-serif;
   background-color: var(--bg);
   overflow-x: hidden;
+  color:yellow;
 }
 
 /* Login page */
@@ -41,7 +42,7 @@ body {
 /* Playlist page */
 .playlist-grid {
   display: grid;
-  gap: 8px;
+  gap: 25px;
   grid-template-columns: repeat(auto-fill, minmax(var(--img-size), 1fr));
 }
 
@@ -53,7 +54,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 2px;
+  border-radius: 50px;
   transition: 0.3s;
   cursor: pointer;
 }
